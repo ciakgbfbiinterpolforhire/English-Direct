@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NCERT English Chapters</title>
+
+<style>
+:root{
+    --bg:#f5f7fb;
+    --text:#111;
+    --card:#ffffff;
+    --accent:#2b7cff;
+}
+
+body.dark{
+    --bg:#0f1115;
+    --text:#e6e6e6;
+    --card:#1a1d24;
+    --accent:#4c8dff;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    margin:0;
+    padding:40px 20px;
+    transition:0.3s;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h2{
+    margin-top:40px;
+    border-left:6px solid var(--accent);
+    padding-left:10px;
+}
+
+h3{
+    margin-top:20px;
+    opacity:0.8;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:10px 0;
+}
+
+a{
+    display:block;
+    text-decoration:none;
+    background:var(--card);
+    padding:14px 18px;
+    border-radius:10px;
+    color:var(--text);
+    font-weight:500;
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+    transition:0.25s;
+}
+
+a:hover{
+    background:var(--accent);
+    color:white;
+    transform:translateX(6px);
+}
+
+.toggle{
+    display:block;
+    margin:0 auto 30px auto;
+    padding:10px 18px;
+    border:none;
+    border-radius:8px;
+    background:var(--accent);
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>NCERT English Chapters</h1>
+
+<button class="toggle" onclick="toggleDark()">Toggle Dark Mode</button>
+
+<h2>Flamingo</h2>
+
+<h3>Prose</h3>
+<ul>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=1-13" target="_blank">The Last Lesson</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=2-13" target="_blank">Lost Spring</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=3-13" target="_blank">Deep Water</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=4-13" target="_blank">The Rattrap</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=5-13" target="_blank">Indigo</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=6-13" target="_blank">Poets and Pancakes</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=7-13" target="_blank">The Interview</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=8-13" target="_blank">Going Places</a></li>
+</ul>
+
+<h3>Poetry</h3>
+<ul>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=11-13" target="_blank">My Mother at Sixty-six</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=12-13" target="_blank">Keeping Quiet</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=13-13" target="_blank">A Thing of Beauty</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=14-13" target="_blank">A Roadside Stand</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?lefl1=15-13" target="_blank">Aunt Jennifer’s Tigers</a></li>
+</ul>
+
+<h2>Vistas</h2>
+<ul>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=1-6" target="_blank">The Third Level</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=2-6" target="_blank">The Tiger King</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=3-6" target="_blank">Journey to the End of the Earth</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=4-6" target="_blank">The Enemy</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=5-6" target="_blank">On the Face of It</a></li>
+<li><a href="https://ncert.nic.in/textbook.php?levt1=6-6" target="_blank">Memories of Childhood</a></li>
+</ul>
+
+</div>
+
+<script>
+function toggleDark(){
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
